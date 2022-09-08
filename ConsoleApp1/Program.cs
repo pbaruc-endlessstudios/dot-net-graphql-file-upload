@@ -54,8 +54,8 @@ var me = new GraphQLRequest
 };
 // Invoke the query against service, retrieve response
 var meGraphQLResponse = await graphQLClient.SendQueryAsync<MeResponseType>(me);
-Console.WriteLine("Me: " + Newtonsoft.Json.JsonConvert.SerializeObject(meGraphQLResponse.Data));
 
+Console.WriteLine("Reseponse from graphql-server for \"me\" resolver: " + Newtonsoft.Json.JsonConvert.SerializeObject(meGraphQLResponse.Data));
 
 
 // ================================================================================================================
