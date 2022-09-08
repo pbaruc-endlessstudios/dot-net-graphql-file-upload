@@ -1,0 +1,321 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "GraphQL.Client": "5.1.0",
+          "GraphQL.Client.Abstractions": "5.1.0",
+          "GraphQL.Client.Abstractions.Websocket": "5.1.0",
+          "GraphQL.Client.LocalExecution": "5.1.0",
+          "GraphQL.Client.Serializer.Newtonsoft": "5.1.0",
+          "GraphQL.Client.Serializer.SystemTextJson": "5.1.0",
+          "GraphQL.Primitives": "5.1.0"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "GraphQL/5.0.0": {
+        "dependencies": {
+          "GraphQL-Parser": "8.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "GraphQL-Parser/8.0.0": {
+        "runtime": {
+          "lib/net6.0/GraphQLParser.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "GraphQL.Client/5.1.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "5.1.0",
+          "GraphQL.Client.Abstractions.Websocket": "5.1.0",
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.Abstractions/5.1.0": {
+        "dependencies": {
+          "GraphQL.Primitives": "5.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.Abstractions.Websocket/5.1.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "5.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.Websocket.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.LocalExecution/5.1.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "5.1.0",
+          "GraphQL.Client.Serializer.Newtonsoft": "5.1.0",
+          "GraphQL.MicrosoftDI": "5.0.0",
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.LocalExecution.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.Serializer.Newtonsoft/5.1.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions.Websocket": "5.1.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Serializer.Newtonsoft.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.Serializer.SystemTextJson/5.1.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions.Websocket": "5.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GraphQL.Client.Serializer.SystemTextJson.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "GraphQL.MicrosoftDI/5.0.0": {
+        "dependencies": {
+          "GraphQL": "5.0.0",
+          "Microsoft.Extensions.Options": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.MicrosoftDI.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "GraphQL.Primitives/5.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Primitives.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {}
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphQL/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dyLsvU8o0sdZr9Z5KaI8OicSe4EGghSotJ6J3hY0AXc1CWiTxMVxot7OmTbdyZgGwj7QCfmwg+BekLrdTVXrXg==",
+      "path": "graphql/5.0.0",
+      "hashPath": "graphql.5.0.0.nupkg.sha512"
+    },
+    "GraphQL-Parser/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kbAEvS0u240X3eN+5zv2eEVKlYTUhW3OB3JmGvI0ZTfiikyQYbWpt3t25C3aykolZUo2WCxewveeCNP4BHXR9A==",
+      "path": "graphql-parser/8.0.0",
+      "hashPath": "graphql-parser.8.0.0.nupkg.sha512"
+    },
+    "GraphQL.Client/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ygsFiS/+DSQBmfP1kjmVk8igODFGNihy81EzTqrq7RmwHgyS34+5Nm9Jkd4mgpFsC8a8UZaWerTilKGqDyePHg==",
+      "path": "graphql.client/5.1.0",
+      "hashPath": "graphql.client.5.1.0.nupkg.sha512"
+    },
+    "GraphQL.Client.Abstractions/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IwZUs8WZtSUorZMKaqxykA/PFtn59gVcwbmkPecjnts2mk+sj/x2owlVbv5SnS2f9Za54zFPG2U3YOGZwBk3NQ==",
+      "path": "graphql.client.abstractions/5.1.0",
+      "hashPath": "graphql.client.abstractions.5.1.0.nupkg.sha512"
+    },
+    "GraphQL.Client.Abstractions.Websocket/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Pctkq7yrhzDYDrR/BGhsp6HEM4i9JHaBQ2KQIeIzDjHGY55YueIRujGcFziJ8KGFRJvQxnpjrGX2+FPRANNCQ==",
+      "path": "graphql.client.abstractions.websocket/5.1.0",
+      "hashPath": "graphql.client.abstractions.websocket.5.1.0.nupkg.sha512"
+    },
+    "GraphQL.Client.LocalExecution/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DLS7PQQjZJWj/Ba6RoRUlXbH53vMuXmebVSr3n5CenfDTp05derTybuUbAJKcTUNf5J/GEn75eVa2lvXOUICBw==",
+      "path": "graphql.client.localexecution/5.1.0",
+      "hashPath": "graphql.client.localexecution.5.1.0.nupkg.sha512"
+    },
+    "GraphQL.Client.Serializer.Newtonsoft/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SM7ijGJqtFbTsHedjMnDNfGCQqz+ha5C+8XsvV5k59fu+7qnWQ333+LqlkHrKO0s77BMGzZ9dHWakRpQAdMcPg==",
+      "path": "graphql.client.serializer.newtonsoft/5.1.0",
+      "hashPath": "graphql.client.serializer.newtonsoft.5.1.0.nupkg.sha512"
+    },
+    "GraphQL.Client.Serializer.SystemTextJson/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SP5p1QWAsja0uZSlC0RNWAzUdEe97IWFZ2zAXM9TSTpDWG7QNr3xFt8bPx8aL6IFuVv6IrqsSoGzONIwKhIVXQ==",
+      "path": "graphql.client.serializer.systemtextjson/5.1.0",
+      "hashPath": "graphql.client.serializer.systemtextjson.5.1.0.nupkg.sha512"
+    },
+    "GraphQL.MicrosoftDI/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+/QPGV6LJjfCZfZ+kVZ/Fmid20VP7W5+sG7CmlCODyg/78YorW9H5jECiw5ZNX1wPOamzHDEkH4zuVfJmfv7GA==",
+      "path": "graphql.microsoftdi/5.0.0",
+      "hashPath": "graphql.microsoftdi.5.0.0.nupkg.sha512"
+    },
+    "GraphQL.Primitives/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NQmodHoO343gQW9/LbBWteRWlQhLxHV661s3Su8lHl2bPHZ0eauWBkjzWuVY9mLDo54mEDhQv5dTCkFnW21meA==",
+      "path": "graphql.primitives/5.1.0",
+      "hashPath": "graphql.primitives.5.1.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sAKBgjl2gWsECBLLR9K54T7/uZaP2n9GhMYHay/oOLfvpvX0+iNAlQ2NJgVE352C9Fs5CDV3VbNTK8T2aNKQFA==",
+      "path": "microsoft.extensions.options/2.0.0",
+      "hashPath": "microsoft.extensions.options.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+    }
+  }
+}

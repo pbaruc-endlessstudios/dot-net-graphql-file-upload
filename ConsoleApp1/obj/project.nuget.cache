@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "3qYayWV3gNrs1eDCLBhTYlCUnArdpqdn0TvfK0rjDce8EEOh8nDQrbwCmDKqVynwN3Yuw5RDMV20+IXQe6WANA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\phili\\Documents\\Repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phili\\.nuget\\packages\\graphql\\5.0.0\\graphql.5.0.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\graphql-parser\\8.0.0\\graphql-parser.8.0.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\graphql.client\\5.1.0\\graphql.client.5.1.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\graphql.client.abstractions\\5.1.0\\graphql.client.abstractions.5.1.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\graphql.client.abstractions.websocket\\5.1.0\\graphql.client.abstractions.websocket.5.1.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\graphql.client.localexecution\\5.1.0\\graphql.client.localexecution.5.1.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\graphql.client.serializer.newtonsoft\\5.1.0\\graphql.client.serializer.newtonsoft.5.1.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\graphql.client.serializer.systemtextjson\\5.1.0\\graphql.client.serializer.systemtextjson.5.1.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\graphql.microsoftdi\\5.0.0\\graphql.microsoftdi.5.0.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\graphql.primitives\\5.1.0\\graphql.primitives.5.1.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\phili\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
