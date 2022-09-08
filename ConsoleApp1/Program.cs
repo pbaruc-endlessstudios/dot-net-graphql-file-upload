@@ -40,7 +40,7 @@ graphQLClient.HttpClient.DefaultRequestHeaders.Add("Authorization", "Bearer " + 
 // Now all subsequent queries will execute queries using the auth token
 // ====================================================================
 
-// Invoke 'me' graphql query to return details for the authorized user.
+// Create graphql query to return details for the authorized user.
 var me = new GraphQLRequest
 {
     Query = @"query me {
@@ -52,6 +52,10 @@ var me = new GraphQLRequest
     }",
     OperationName = "me"
 };
+// Invoke the query against service, retrieve response
+var meGraphQLResponse = await graphQLClient.SendQueryAsync<MeResponseType>(me);
+Console.WriteLine("Me: " + Newtonsoft.Json.JsonConvert.SerializeObject(meGraphQLResponse.Data));
+
 
 
 // ================================================================================================================
@@ -61,12 +65,18 @@ public class LoginWithUsernameOrEmailResponseType
     public string loginWithUsernameOrEmail { get; set; }
 }
 
-public class MeResponseType
+
+public class Metype
 {
     public int id { get; set; }
 
     public string username { get; set; }
 
     public string email { get; set; }
+
+}
+public class MeResponseType
+{
+    public Metype me { get; set; }
 }
 
