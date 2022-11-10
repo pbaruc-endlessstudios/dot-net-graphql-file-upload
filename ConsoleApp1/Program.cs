@@ -22,7 +22,7 @@ Query = @"mutation loginWithUsernameOrEmail($username_or_email: String!, $passwo
     Variables = new
     {
         username_or_email = "user0",    // This is an existing test account we have establised in dev environment
-        password = "12345678"
+        password = "PLACE_HOLDER_PASSWORD__REPLACE_ME"
     }
 };
 

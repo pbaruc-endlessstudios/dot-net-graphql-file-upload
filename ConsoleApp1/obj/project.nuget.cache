@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3qYayWV3gNrs1eDCLBhTYlCUnArdpqdn0TvfK0rjDce8EEOh8nDQrbwCmDKqVynwN3Yuw5RDMV20+IXQe6WANA==",
+  "dgSpecHash": "2TIjSAVUQ0biLABnuu/ifZzFsUeUTICjl4ilzMJqleKpIqWt2ray4eV0ZtcPDujH9slTEkl7O7pnl9mrNgxKag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phili\\Documents\\Repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\phili\\Documents\\Repos\\dot-net-graphql-login\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phili\\.nuget\\packages\\graphql\\5.0.0\\graphql.5.0.0.nupkg.sha512",
     "C:\\Users\\phili\\.nuget\\packages\\graphql-parser\\8.0.0\\graphql-parser.8.0.0.nupkg.sha512",
