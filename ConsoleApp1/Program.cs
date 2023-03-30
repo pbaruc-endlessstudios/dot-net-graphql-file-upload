@@ -7,11 +7,10 @@ using System.Security.Cryptography.X509Certificates;
 
 
 // GraphQL Client to the development environment
-var graphQLClient = new GraphQLHttpClient("http://localhost:3003/graphql", new NewtonsoftJsonSerializer());
+var graphQLClient = new GraphQLHttpClient("https://dev.graphql-api.endlessstudios.com/graphql", new NewtonsoftJsonSerializer());
 
 // Local variables
 var fileName = "somefile.txt";
-var fileName2 = "somefile.v2.txt";
 var mime_type = "text/plain";
 var size = 100; // Hardcoded here but you should calculate the real size of the file.
 
