@@ -12,6 +12,7 @@ var graphQLClient = new GraphQLHttpClient("https://dev.graphql-api.endlessstudio
 // Local variables
 var fileName = "somefile.txt";
 var mime_type = "text/plain";
+var folder = "game-engine";
 var size = 100; // Hardcoded here but you should calculate the real size of the file.
 
 
@@ -51,11 +52,12 @@ graphQLClient.HttpClient.DefaultRequestHeaders.Add("Authorization", "Bearer " + 
 // ===================================================================================================================================
 var fileUploadLink = new GraphQLRequest
 {
-    Query = @"mutation createFileUploadLink($name: String!, $mime_type: String!, $size: Int!) {
+    Query = @"mutation createFileUploadLink($name: String!, $mime_type: String!, $size: Int!, $folder: String) {
         createFileUploadLink(input: {
             name: $name
             mime_type: $mime_type
-            size: $size
+            size: $size,
+            folder: $folder
         }) {
             secure_upload_url
             additional_s3_security_fields
@@ -67,7 +69,8 @@ var fileUploadLink = new GraphQLRequest
     Variables = new {
         name = fileName,
         mime_type = mime_type,
-        size = size
+        size = size,
+        folder = folder
     }
 };
 
